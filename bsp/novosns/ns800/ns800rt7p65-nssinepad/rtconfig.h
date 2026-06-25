@@ -149,6 +149,7 @@
 #define RT_CANSND_BOX_NUM 1
 #define RT_CANSND_MSG_TIMEOUT 100
 #define RT_CAN_NB_TX_FIFO_SIZE 256
+#define RT_USING_ADC
 #define RT_USING_PIN
 /* end of Device Drivers */
 
@@ -298,6 +299,10 @@
 
 /* end of Kendryte SDK */
 
+/* MM32 HAL & SDK Drivers */
+
+/* end of MM32 HAL & SDK Drivers */
+
 /* WCH HAL & SDK Drivers */
 
 /* end of WCH HAL & SDK Drivers */
@@ -420,7 +425,11 @@
 #define BSP_USING_GPIO
 #define BSP_USING_UART
 #define BSP_NS800_UART_TX_TIMEOUT 6000
+#define BSP_UART_DEFAULT_BAUDRATE 115200
+#define BSP_UART_DATABITS_8
+#define BSP_UART_STOPBITS_1
 #define BSP_USING_UART1
+#define BSP_USING_ADC
 #define BSP_USING_CAN
 #define BSP_USING_CANFD1
 /* end of On-chip Peripheral Drivers */
